@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <!-- Cart icon -->
+    <button id="cartButton" class="cart-icon">
+        🛒
+    </button>
+
+    <!-- Dropdown cart -->
+    <div id="cartDropdown" class="cart-dropdown hidden">
+        <!-- Cart items (replace with dynamic data) -->
+        <div class="cart-item">
+            <span class="product-name">Product 1</span>
+            <span class="product-price">ট20</span>
+        </div>
+        <div class="cart-item">
+            <span class="product-name">Product 2</span>
+            <span class="product-price">ট15</span>
+        </div>
+        <!-- Add more items here -->
+
+        <!-- Total price -->
+        <div class="total-price">
+            <span class="total-label">Total:</span>
+            <span class="total-amount">ট35</span>
+        </div>
+
+        <!-- Checkout button (optional) -->
+        <button class="checkout-button">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
